@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.boxl{
+    border: 1px solid #DFE2E7;
+    width: 100%;
+    padding: 15px 25px;
+}
+
+.boxr{
+    border: 1px solid #DFE2E7;
+    width: 100%;
+    padding: 15px 25px;
+    background-color: #F3F6FB;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.madeby{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+.madeby a {
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .section{
+        flex-direction: column;
+        width: 85vw;
+    }
+   }

@@ -1,0 +1,77 @@
+<div>
+    <div class="alldata">
+        <div class="section">
+            <div class="boxl">
+                <h1>API NBA</h1>
+                <p></p>
+            </div>
+            <div class="boxr"></div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>API ENDPOINTS</h3>
+                <p>A continuación se describen los ENDPOINTS de la API que puedes usar</p>
+            </div>
+            <div class="boxr"></div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>[/players] Todos los jugadores</h3>
+                <p>Obtener todos todos los jugadores dentro de la API</p>
+            </div>
+            <div class="boxr">
+                <p><code>https://mynba-api.herokuapp.com/api/players</code></p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>[/players/id] Un solo jugador</h3>
+                <p>Obtener la información de un solo jugador a través de su ID</p>
+            </div>
+            <div class="boxr">
+                <p><code>https://mynba-api.herokuapp.com/api/players/{id}</code></p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>[/teams] Todos los equipos de la NBA</h3>
+                <p>Despliega todos los equipos de la NBA junto con su información</p>
+            </div>
+            <div class="boxr">
+                <p><code>https://mynba-api.herokuapp.com/api/teams</code></p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>[/teams/id] Un solo equipo</h3>
+                <p>Obtener la información de un solo equipo a través de su ID</p>
+            </div>
+            <div class="boxr">
+                <p><code>https://mynba-api.herokuapp.com/api/teams/{id}</code></p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>Ejemplo de respuesta para un jugador</h3>
+                <p><code>https://mynba-api.herokuapp.com/api/players/5f336091552f006310c85655</code></p>
+            </div>
+            <div class="boxr">
+                <p><code>{</br>"estadisticas":{</br>"MJ":38.3,</br>"PTS":30.1,</br>"RB":6.2,</br>"AS":5.3,</br>"TC":50,</br>"T3":33,</br>"TL":84</br>},</br>"_id":"5f336091552f006310c85655"</br>,"nombre":"Michael Jordan",</br>"nombreCompleto":"Michael Jeffrey Jordan",</br>"temporadas":15,</br>"altura":1.98,</br>"peso":98,</br>"nacionalidad":"Estados Unidos",</br>"titulos":6,</br>"imgUrl":"https://res.cloudinary.com/robcg1102/image/upload/v1597202260/nba_photos/nba_photos_michael-jordan_mu2ow6.jpg",</br>"__v":0</br>}</code>
+                </p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="boxl">
+                <h3>Ejemplo de respuesta para un equipo</h3>
+                <p><code>https://mynba-api.herokuapp.com/api/teams/5f3430ecccc1056cc0fb6831</code></p>
+            </div>
+            <div class="boxr">
+                <p><code>{</br>"_id":"5f3430ecccc1056cc0fb6831", </br>"nombre":"Denver Nuggets",</br>"ciudad":"Denver, CO",</br>"fundado":1967,</br>"conferencia":"Oeste",</br>"pabellon":"Pepsi Center",</br>"imgurl":"https://res.cloudinary.com/robcg1102/image/upload/v1597255786/teams_nba/teams_nba_denver_nuggets_zkvgyz.png",</br>"__v":0</br>}</code>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="madeby">2020 | Made by <a href="https://robcg1102.netlify.app/" target="_blank">robcg1102</a></p>
+    </div>
+</div>
